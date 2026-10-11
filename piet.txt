@@ -1,0 +1,5 @@
+Piet is an image-based programming language.
+This project includes a generated Piet program image in `piet.png`.
+
+Piet programs are not written as plain text; they are created as colored pixel art.
+The image here is a simple placeholder/example for the language.
