@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello, World!</title>
+  <style>
+    :root {
+      --bg: #f5f5f1;
+      --paper: #ffffff;
+      --line: #e5e5e0;
+      --text: #1f1f1f;
+      --muted: #666666;
+      --link: #1d4ed8;
+      --link-hover: #163ea8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    .header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .item {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .item strong {
+      display: block;
+      font-size: 0.96rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .item a {
+      display: inline-block;
+      color: var(--link);
+      text-decoration: none;
+      font-size: 0.92rem;
+    }
+
+    .item a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .footer a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <h1>Hello, World!</h1>
+      <p class="subtitle">Сборка простых программ на популярных языках.</p>
+    </header>
+
+    <main class="grid">
+      <div class="item"><strong>Python</strong><a href="python.py">python.py</a></div>
+      <div class="item"><strong>JavaScript</strong><a href="javascript.js">javascript.js</a></div>
+      <div class="item"><strong>TypeScript</strong><a href="typescript.ts">typescript.ts</a></div>
+      <div class="item"><strong>Java</strong><a href="java.java">java.java</a></div>
+      <div class="item"><strong>C</strong><a href="c.c">c.c</a></div>
+      <div class="item"><strong>C++</strong><a href="cpp.cpp">cpp.cpp</a></div>
+      <div class="item"><strong>C#</strong><a href="csharp.cs">csharp.cs</a></div>
+      <div class="item"><strong>Go</strong><a href="go.go">go.go</a></div>
+      <div class="item"><strong>Rust</strong><a href="rust.rs">rust.rs</a></div>
+      <div class="item"><strong>Ruby</strong><a href="ruby.rb">ruby.rb</a></div>
+      <div class="item"><strong>PHP</strong><a href="php.php">php.php</a></div>
+      <div class="item"><strong>Swift</strong><a href="swift.swift">swift.swift</a></div>
+      <div class="item"><strong>Kotlin</strong><a href="kotlin.kt">kotlin.kt</a></div>
+      <div class="item"><strong>Bash</strong><a href="bash.sh">bash.sh</a></div>
+      <div class="item"><strong>PowerShell</strong><a href="powershell.ps1">powershell.ps1</a></div>
+      <div class="item"><strong>SQL</strong><a href="sql.sql">sql.sql</a></div>
+      <div class="item"><strong>Lua</strong><a href="lua.lua">lua.lua</a></div>
+      <div class="item"><strong>R</strong><a href="r.r">r.r</a></div>
+      <div class="item"><strong>Perl</strong><a href="perl.pl">perl.pl</a></div>
+      <div class="item"><strong>Dart</strong><a href="dart.dart">dart.dart</a></div>
+      <div class="item"><strong>Piet</strong><a href="piet.png">piet.png</a></div>
+    </main>
+
+    <div class="footer">
+      <a href="README.md">README</a>
+    </div>
+  </div>
+</body>
+</html>
